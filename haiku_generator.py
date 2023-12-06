@@ -4,13 +4,8 @@ import random
 
 def contains(s, chars):
     for c in chars:
-        if type(c) == "<class 'str'>":
             for c2 in s:
                 if c2 == c:
-                    return True
-        elif type(c) == "":
-            for f in s:
-                if f(c2) == True:
                     return True
     return False
 def _syllables(word):
